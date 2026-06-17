@@ -141,8 +141,6 @@ My current implementation works but is not fully optimized. While it successfull
 
 ## What I Learned
 
-## Lessons Learned
-
 One of the most surprising discoveries during this project was learning that the Raspberry Pi cannot directly measure analog voltages through its GPIO pins.
 
 Coming from an Arduino background, where analog inputs are available through built-in ADC hardware, I initially assumed the Raspberry Pi offered similar functionality. Through this project, I learned that analog sensors require an external Analog-to-Digital Converter (ADC) such as the PCF8591 before their measurements can be processed by the Raspberry Pi.
